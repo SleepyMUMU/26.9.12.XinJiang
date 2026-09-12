@@ -11,8 +11,8 @@
   <text x="45" y="63.0" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#6b7280" text-anchor="end">80%</text>
   <line x1="55" y1="30.0" x2="570" y2="30.0" stroke="#e5e7eb" stroke-dasharray="4,4" stroke-width="1" />
   <text x="45" y="34.0" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#6b7280" text-anchor="end">100%</text>
-  <polyline points="312.5,175.0" fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-  <circle cx="312.5" cy="175.0" r="4" fill="#ffffff" stroke="#3b82f6" stroke-width="2" />
-  <text x="312.5" y="165.0" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="bold" fill="#2563eb" text-anchor="middle">0.0%</text>
+  <polyline points="312.5,171.8014705882353" fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="312.5" cy="171.8014705882353" r="4" fill="#ffffff" stroke="#3b82f6" stroke-width="2" />
+  <text x="312.5" y="161.8014705882353" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="bold" fill="#2563eb" text-anchor="middle">2.2%</text>
   <text x="312.5" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#6b7280" text-anchor="middle">09-12</text>
 </svg>

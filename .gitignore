@@ -7,3 +7,6 @@
 !progress_chart.svg
 !.github/
 !.github/**
+!docs/
+!docs/assets/
+!docs/assets/*.png
