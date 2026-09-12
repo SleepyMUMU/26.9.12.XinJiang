@@ -15,7 +15,7 @@
 ![Progress Badge](https://img.shields.io/badge/Progress-9%20%2F%20408%20(2.2%25)-blue?style=for-the-badge&logo=github)
 
 ### 📈 标注进度趋势折线图
-![标注进度趋势](https://raw.githubusercontent.com/SleepyMUMU/26.9.12.XinJiang/assets/progress_chart.svg?v=1789217215)
+![标注进度趋势](https://raw.githubusercontent.com/SleepyMUMU/26.9.12.XinJiang/assets/progress_chart.svg?v=1789217222)
 
 ---
 ## 🧭 标签判读参考
@@ -57,7 +57,7 @@
 
 
 ---
-*📅 统计更新时间：2026-09-12 20:46:55 (UTC+8)*
+*📅 统计更新时间：2026-09-12 20:47:02 (UTC+8)*
 
 ---
 ## 👥 多人协作说明
