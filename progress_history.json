@@ -1,9 +1,29 @@
 {
-  "file_hashes": {},
+  "file_hashes": {
+    "XinJiang-阿合奇县-11-8.json": "296c0b6ddcc77f7188465cafe262cefc3c5c48a3bfd63ca799f327ea716c65aa",
+    "XinJiang-阿合奇县-13-29.json": "67c1dbd3f8fcfe7bf434d26f00c50d5a80be71784aa1e9d4b8f67de81ed2379b",
+    "XinJiang-阿合奇县-13-34.json": "d5acbbfdd4247b09cc74162c36bde86a02fa876600f4b013218f8c38ae7da59e",
+    "XinJiang-阿合奇县-11-29.json": "9ef9f9d24b375dafa3ccbf123b07076b72f70126374417a62d056988c3eeb7bc",
+    "XinJiang-阿合奇县-11-9.json": "d316e64f8b9768494d707b4c8a9f2f615f12cba91dbdb69ac61d6bd8a6c73e97",
+    "XinJiang-阿合奇县-13-46.json": "efeadf5cbb6a900224a9b933baddecbeb8a6f8f050ff3613b38dbf5bcdbd30c7",
+    "XinJiang-阿合奇县-13-33.json": "ffdb058b68087dd11b9fe73e0fb6c5d3d49091561a07020696359ea68c5c9a26",
+    "XinJiang-阿合奇县-14-44.json": "676d42b540f9a836c24f72e774b901871ee1dcbe4ff1b1956ce82dc7d315d0cb",
+    "XinJiang-阿合奇县-9-16.json": "025c285d3b0355aaf7a54811b5ab4d2e90affb0211b71a30dc52e5178ce8ca56"
+  },
   "daily_stats": {
     "2026-09-12": {
-      "total_completed": 0,
-      "new_files": [],
+      "total_completed": 9,
+      "new_files": [
+        "XinJiang-阿合奇县-11-29",
+        "XinJiang-阿合奇县-11-8",
+        "XinJiang-阿合奇县-11-9",
+        "XinJiang-阿合奇县-13-29",
+        "XinJiang-阿合奇县-13-33",
+        "XinJiang-阿合奇县-13-34",
+        "XinJiang-阿合奇县-13-46",
+        "XinJiang-阿合奇县-14-44",
+        "XinJiang-阿合奇县-9-16"
+      ],
       "strengthened_files": []
     }
   }
