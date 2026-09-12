@@ -17,7 +17,7 @@ def get_file_hash(filepath):
 
 def get_beijing_today():
     """获取北京时间（UTC+8）的今天日期与确切时间"""
-    utc_now = datetime.datetime.utcnow()
+    utc_now = datetime.datetime.now(datetime.timezone.utc)
     bj_now = utc_now + datetime.timedelta(hours=8)
     return bj_now.strftime('%Y-%m-%d'), bj_now.strftime('%Y-%m-%d %H:%M:%S')
 
@@ -215,10 +215,35 @@ def main():
 
     # 6. 生成 README
     percent = (completed_labels / total_imgs * 100) if total_imgs > 0 else 0.0
+    visual_percent = min(max(percent, 0.0), 100.0)
     bar_length = 20
-    filled_length = int(round(bar_length * (percent / 100.0))) if total_imgs > 0 else 0
+    filled_length = int(round(bar_length * (visual_percent / 100.0))) if total_imgs > 0 else 0
     bar = '█' * filled_length + '░' * (bar_length - filled_length)
     remaining_imgs = max(0, total_imgs - completed_labels)
+    repository_name = repository.rsplit('/', 1)[-1]
+
+    if total_imgs > 0:
+        total_value = str(total_imgs)
+        total_progress = f"`[{'█' * bar_length}]` 100.0%"
+        completed_progress = f"`[{bar}]` {percent:.1f}%"
+        remaining_value = str(remaining_imgs)
+        remaining_progress = f"`[{'░' * bar_length}]` {max(0.0, 100.0 - percent):.1f}%"
+        badge_url = (
+            f"https://img.shields.io/badge/Progress-{completed_labels}%20%2F%20{total_imgs}"
+            f"%20({percent:.1f}%25)-blue?style=for-the-badge&logo=github"
+        )
+        setup_notice = ""
+    else:
+        total_value = "待配置"
+        total_progress = "—"
+        completed_progress = f"`[{bar}]` 待配置"
+        remaining_value = "待配置"
+        remaining_progress = "—"
+        badge_url = "https://img.shields.io/badge/Progress-Setup_required-orange?style=for-the-badge&logo=github"
+        setup_notice = (
+            "> [!IMPORTANT]\n"
+            "> 请先在 `config.json` 中填写 `total_images`，看板才会计算准确进度。\n\n"
+        )
     
     # 构建历史记录面板 (取最近 7 天)
     recent_days = sorted(history_data["daily_stats"].keys(), reverse=True)[:7]
@@ -228,6 +253,7 @@ def main():
         st = history_data["daily_stats"][day]
         d_comp = st.get("total_completed", 0)
         d_pct = (d_comp / total_imgs * 100) if total_imgs > 0 else 0.0
+        d_progress = f"{d_comp}/{total_imgs} ({d_pct:.1f}%)" if total_imgs > 0 else f"{d_comp}/待配置"
         n_list = st.get("new_files", [])
         s_list = st.get("strengthened_files", [])
         n_cnt = len(n_list)
@@ -238,12 +264,12 @@ def main():
         
         if n_cnt == 0 and s_cnt == 0:
             log_html += f"<details{open_attr}>\n"
-            log_html += f"<summary><b>{day}</b> : 进度 {d_comp}/{total_imgs} ({d_pct:.1f}%) | 💤 暂无更新 🔽</summary>\n"
+            log_html += f"<summary><b>{day}</b> : 进度 {d_progress} | 💤 暂无更新 🔽</summary>\n"
             log_html += f"\n*这一天项目进度发生同步，但无具体标注文件的变更。*\n"
             log_html += "</details>\n\n"
         else:
             log_html += f"<details{open_attr}>\n"
-            log_html += f"<summary><b>{day}</b> : 进度 {d_comp}/{total_imgs} ({d_pct:.1f}%) | 🌟 新增 {n_cnt} | 🔨 加强 {s_cnt} 🔽</summary>\n<br>\n"
+            log_html += f"<summary><b>{day}</b> : 进度 {d_progress} | 🌟 新增 {n_cnt} | 🔨 加强 {s_cnt} 🔽</summary>\n<br>\n"
             
             if n_cnt > 0:
                 log_html += f"  <details>\n  <summary>🌟 <b>新增文件 ({n_cnt})</b> 🔽</summary>\n\n"
@@ -259,21 +285,21 @@ def main():
 
     timestamp = int(time.time())
 
-    readme_content = f"""# 🗺️ {project_title} (26.9.12.XinJiang)
+    readme_content = f"""# 🗺️ {project_title} ({repository_name})
 
 > [!NOTE]
 > 本仓库仅同步 Labelme 标注所生成的 JSON 数据。图片总数在 `config.json` 中配置，GitHub Actions 会在每次推送时自动统计当前的 JSON 文件数量并更新此看板。
 
-### 📊 标注状态看板
+{setup_notice}### 📊 标注状态看板
 
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
-| **总图片数 (Total)** | **{total_imgs}** | `[{'█' * bar_length}]` 100.0% |
-| **已标记 (Completed)** | **{completed_labels}** | `[{bar}]` {percent:.1f}% |
-| **未标记 (Remaining)** | **{remaining_imgs}** | `[{'░' * bar_length}]` {(100.0 - percent):.1f}% |
+| **总图片数 (Total)** | **{total_value}** | {total_progress} |
+| **已标记 (Completed)** | **{completed_labels}** | {completed_progress} |
+| **未标记 (Remaining)** | **{remaining_value}** | {remaining_progress} |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-{completed_labels}%20%2F%20{total_imgs}%20({percent:.1f}%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge]({badge_url})
 
 ### 📈 标注进度趋势折线图
 ![标注进度趋势](https://raw.githubusercontent.com/{repository}/assets/progress_chart.svg?v={timestamp})
@@ -288,11 +314,6 @@ def main():
 本项目已全面接入 **GitHub Actions**。作为协作者，您**无需**在本地运行任何脚本或配置任何 Git 钩子。
 只要您正常将 `.json` 文件 `git push` 到仓库，云端就会自动计算并更新此 README 文件和趋势图！
 （如果您向本地库新增了待标注图片，请顺手修改 `config.json` 中的 `total_images` 数值即可。）
-
----
-<div align="center">
-  <sub>🤖 Automated by <b>Antigravity AI</b></sub>
-</div>
 """
     with open(os.path.join(BASE_DIR, 'README.md'), 'w', encoding='utf-8') as fr:
         fr.write(readme_content)
