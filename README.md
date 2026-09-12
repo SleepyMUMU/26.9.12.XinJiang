@@ -3,35 +3,32 @@
 > [!NOTE]
 > 本仓库仅同步 Labelme 标注所生成的 JSON 数据。图片总数在 `config.json` 中配置，GitHub Actions 会在每次推送时自动统计当前的 JSON 文件数量并更新此看板。
 
-> [!IMPORTANT]
-> 请先在 `config.json` 中填写 `total_images`，看板才会计算准确进度。
-
 ### 📊 标注状态看板
 
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
-| **总图片数 (Total)** | **待配置** | — |
-| **已标记 (Completed)** | **0** | `[░░░░░░░░░░░░░░░░░░░░]` 待配置 |
-| **未标记 (Remaining)** | **待配置** | — |
+| **总图片数 (Total)** | **408** | `[████████████████████]` 100.0% |
+| **已标记 (Completed)** | **0** | `[░░░░░░░░░░░░░░░░░░░░]` 0.0% |
+| **未标记 (Remaining)** | **408** | `[░░░░░░░░░░░░░░░░░░░░]` 100.0% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-Setup_required-orange?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-0%20%2F%20408%20(0.0%25)-blue?style=for-the-badge&logo=github)
 
 ### 📈 标注进度趋势折线图
-![标注进度趋势](https://raw.githubusercontent.com/SleepyMUMU/26.9.12.XinJiang/assets/progress_chart.svg?v=1789177860)
+![标注进度趋势](https://raw.githubusercontent.com/SleepyMUMU/26.9.12.XinJiang/assets/progress_chart.svg?v=1789216517)
 
 ---
 ### 📅 每日标注聚合日志
 
 <details open>
-<summary><b>2026-09-12</b> : 进度 0/待配置 | 💤 暂无更新 🔽</summary>
+<summary><b>2026-09-12</b> : 进度 0/408 (0.0%) | 💤 暂无更新 🔽</summary>
 
 *这一天项目进度发生同步，但无具体标注文件的变更。*
 </details>
 
 
 ---
-*📅 统计更新时间：2026-09-12 09:51:00 (UTC+8)*
+*📅 统计更新时间：2026-09-12 20:35:17 (UTC+8)*
 
 ---
 ## 👥 多人协作说明
