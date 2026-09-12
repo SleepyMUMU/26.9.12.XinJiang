@@ -1,0 +1,9 @@
+*
+!*.json
+!.gitignore
+!README.md
+!update_readme.py
+!progress_history.json
+!progress_chart.svg
+!.github/
+!.github/**
