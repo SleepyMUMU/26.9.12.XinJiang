@@ -9,13 +9,13 @@
 > 下列图片由 GPT 根据遥感影像生成，用于统一高原山地的判读思路。图中的边界和文字均为辅助解释，不是最终标注真值；实际圈画仍应以原始高分辨率影像和项目标准为准。
 
 <p align="center">
-  <img src="docs/assets/gpt-remote-sensing-interpretation.png" alt="GPT 生成的遥感影像基础判读示意图" width="820">
+  <img src="https://raw.githubusercontent.com/SleepyMUMU/26.9.12.XinJiang/2cd111ab9603e4b0940537133c49a832d8ba7f12/docs/assets/gpt-remote-sensing-interpretation.png" alt="GPT 生成的遥感影像基础判读示意图" width="820">
 </p>
 
 **基础地物判读：** 青色范围表示连续冰雪／冰川覆盖区，可作为 **7 冰雪** 的边界参考；橙色范围表示裸地或岩石山体，通常优先考虑 **11 不可种植区**；蓝色线强调冰川槽谷／冰川舌的形态。黄色虚线标出的“侧碛（可能）”是辅助识别冰川地貌的线索，本身不是独立标签，不能仅凭该线索直接定类。
 
 <p align="center">
-  <img src="docs/assets/gpt-planting-suitability.png" alt="GPT 生成的高原山地种草种树粗略判读图" width="820">
+  <img src="https://raw.githubusercontent.com/SleepyMUMU/26.9.12.XinJiang/2cd111ab9603e4b0940537133c49a832d8ba7f12/docs/assets/gpt-planting-suitability.png" alt="GPT 生成的高原山地种草种树粗略判读图" width="820">
 </p>
 
 **种植适宜性初判：** 绿色范围表示相对平缓、可能具有一定土层的 **可种草优先区**，可作为 **8 裸地种草区** 的候选；深青色小范围表示条件较好的 **可种树候选区**，对应 **9 裸地种树区**；橙色陡坡、沟谷、裸岩和积雪高山属于 **不建议种植区**，通常对应 **11 不可种植区**。
@@ -38,7 +38,7 @@
 ![Progress Badge](https://img.shields.io/badge/Progress-12%20%2F%20408%20(2.9%25)-blue?style=for-the-badge&logo=github)
 
 ### 📈 标注进度趋势折线图
-![标注进度趋势](https://raw.githubusercontent.com/SleepyMUMU/26.9.12.XinJiang/assets/progress_chart.svg?v=1789273153)
+![标注进度趋势](https://raw.githubusercontent.com/SleepyMUMU/26.9.12.XinJiang/assets/progress_chart.svg?v=1789273573)
 
 ---
 ### 📅 每日标注聚合日志
@@ -65,7 +65,7 @@
 
 
 ---
-*📅 统计更新时间：2026-09-13 12:19:13 (UTC+8)*
+*📅 统计更新时间：2026-09-13 12:26:13 (UTC+8)*
 
 ---
 ## 👥 多人协作说明

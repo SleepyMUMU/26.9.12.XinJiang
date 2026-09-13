@@ -2,11 +2,8 @@
 !*.json
 !.gitignore
 !README.md
+!SYNC.md
 !update_readme.py
-!progress_history.json
-!progress_chart.svg
+!strip_image_data.py
 !.github/
 !.github/**
-!docs/
-!docs/assets/
-!docs/assets/*.png
