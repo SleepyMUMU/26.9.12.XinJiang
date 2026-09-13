@@ -31,19 +31,29 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **408** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **9** | `[░░░░░░░░░░░░░░░░░░░░]` 2.2% |
-| **未标记 (Remaining)** | **399** | `[░░░░░░░░░░░░░░░░░░░░]` 97.8% |
+| **已标记 (Completed)** | **12** | `[█░░░░░░░░░░░░░░░░░░░]` 2.9% |
+| **未标记 (Remaining)** | **396** | `[░░░░░░░░░░░░░░░░░░░░]` 97.1% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-9%20%2F%20408%20(2.2%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-12%20%2F%20408%20(2.9%25)-blue?style=for-the-badge&logo=github)
 
 ### 📈 标注进度趋势折线图
-![标注进度趋势](https://raw.githubusercontent.com/SleepyMUMU/26.9.12.XinJiang/assets/progress_chart.svg?v=1789217773)
+![标注进度趋势](https://raw.githubusercontent.com/SleepyMUMU/26.9.12.XinJiang/assets/progress_chart.svg?v=1789273153)
 
 ---
 ### 📅 每日标注聚合日志
 
 <details open>
+<summary><b>2026-09-13</b> : 进度 12/408 (2.9%) | 🌟 新增 3 | 🔨 加强 0 🔽</summary>
+<br>
+  <details>
+  <summary>🌟 <b>新增文件 (3)</b> 🔽</summary>
+
+  `XinJiang-阿克陶县-2-13`, `XinJiang-阿合奇县-15-42`, `XinJiang-阿合奇县-15-43`
+  </details>
+</details>
+
+<details>
 <summary><b>2026-09-12</b> : 进度 9/408 (2.2%) | 🌟 新增 9 | 🔨 加强 0 🔽</summary>
 <br>
   <details>
@@ -55,7 +65,7 @@
 
 
 ---
-*📅 统计更新时间：2026-09-12 20:56:13 (UTC+8)*
+*📅 统计更新时间：2026-09-13 12:19:13 (UTC+8)*
 
 ---
 ## 👥 多人协作说明

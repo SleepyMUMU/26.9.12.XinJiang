@@ -8,7 +8,10 @@
     "XinJiang-阿合奇县-13-46.json": "efeadf5cbb6a900224a9b933baddecbeb8a6f8f050ff3613b38dbf5bcdbd30c7",
     "XinJiang-阿合奇县-13-33.json": "ffdb058b68087dd11b9fe73e0fb6c5d3d49091561a07020696359ea68c5c9a26",
     "XinJiang-阿合奇县-14-44.json": "676d42b540f9a836c24f72e774b901871ee1dcbe4ff1b1956ce82dc7d315d0cb",
-    "XinJiang-阿合奇县-9-16.json": "025c285d3b0355aaf7a54811b5ab4d2e90affb0211b71a30dc52e5178ce8ca56"
+    "XinJiang-阿合奇县-9-16.json": "025c285d3b0355aaf7a54811b5ab4d2e90affb0211b71a30dc52e5178ce8ca56",
+    "XinJiang-阿合奇县-15-43.json": "7f68b64ef767f4f226bf6ac53686506385a15e4f4653fd36c75251da5d7eea90",
+    "XinJiang-阿克陶县-2-13.json": "3d07afc8b029ddb952bc6e84c74f589b57ae54363a31b522319a1b66e2657a2e",
+    "XinJiang-阿合奇县-15-42.json": "2447e864faaf2b8d2b546a5cbf1bd99fdbc2207b7aedf4ea1954933478d42c3f"
   },
   "daily_stats": {
     "2026-09-12": {
@@ -23,6 +26,15 @@
         "XinJiang-阿合奇县-13-46",
         "XinJiang-阿合奇县-14-44",
         "XinJiang-阿合奇县-9-16"
+      ],
+      "strengthened_files": []
+    },
+    "2026-09-13": {
+      "total_completed": 12,
+      "new_files": [
+        "XinJiang-阿克陶县-2-13",
+        "XinJiang-阿合奇县-15-42",
+        "XinJiang-阿合奇县-15-43"
       ],
       "strengthened_files": []
     }
