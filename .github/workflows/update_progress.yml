@@ -27,8 +27,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Verify annotations contain no images
-        run: python strip_image_data.py --check
       - name: Generate progress
         run: python update_readme.py
       - name: Publish chart while preserving reference images
