@@ -11,7 +11,17 @@
     "XinJiang-阿合奇县-9-16.json": "54daa110c058f671b5ca6b819f2dff79002063db06bd1be69d0cdf0f6b323ac1",
     "XinJiang-阿合奇县-15-43.json": "1389ae1bd15744ce75485a81dcf7b4b3abd298af4936971abf76c104dcf2b1c5",
     "XinJiang-阿克陶县-2-13.json": "7d71b48e4a424adfcc3981eab87bc0de482d1a42e187cda49ad236c0a84f2ce4",
-    "XinJiang-阿合奇县-15-42.json": "2be45aceb204d930ca140503fe7425a5a2ea78cdf1267be9f2e9db483a77d733"
+    "XinJiang-阿合奇县-15-42.json": "2be45aceb204d930ca140503fe7425a5a2ea78cdf1267be9f2e9db483a77d733",
+    "XinJiang-阿克陶县-37-59.json": "d14364816a7aa129b2cdf0940c4be34b70ee0609429b247e098cdca13339d6b8",
+    "XinJiang-阿克陶县-10-6.json": "999f22ad3474304afaa415d21a813877c3b1c1cca0a854caf6320d37412dc4d3",
+    "XinJiang-阿克陶县-10-5.json": "e2c93339005613dd76c57d3e0b06673cdfd81c8587391b7674bf10b3b7b102f7",
+    "XinJiang-阿克陶县-7-6.json": "b09fecdb31f4f7db1e7e322b25867629caab098843b3c9449d074a386a965016",
+    "XinJiang-阿克陶县-11-6.json": "d740067e41c8b28a49f04f183112310a77472efdef114b71472d64f81e468baf",
+    "XinJiang-阿克陶县-37-58.json": "f4330703333419709bdf39fd3703f78260a2d3d22512ee1c3e02a0463532949d",
+    "XinJiang-阿克陶县-31-26.json": "9799a39251e74330e6e3a6febaecb2d5137707d20fa4a118d8147f87a2b2c06d",
+    "XinJiang-阿克陶县-11-5.json": "453c808dc348a908cc89f96c06f3c006a8d417bb8fc9fe163411b3d626f7f4e1",
+    "XinJiang-阿克陶县-25-19.json": "69e57d4f1b7e74bb9ae8c05443a4108e6f17c19b0fe690461a62849b73198d38",
+    "XinJiang-阿克陶县-24-32.json": "20b99f32dfefc7d4041741b15b8e2bf9cc24c8a2beec09634b062904f23929e5"
   },
   "daily_stats": {
     "2026-09-12": {
@@ -35,6 +45,22 @@
         "XinJiang-阿克陶县-2-13",
         "XinJiang-阿合奇县-15-42",
         "XinJiang-阿合奇县-15-43"
+      ],
+      "strengthened_files": []
+    },
+    "2026-09-28": {
+      "total_completed": 22,
+      "new_files": [
+        "XinJiang-阿克陶县-10-5",
+        "XinJiang-阿克陶县-10-6",
+        "XinJiang-阿克陶县-11-5",
+        "XinJiang-阿克陶县-11-6",
+        "XinJiang-阿克陶县-24-32",
+        "XinJiang-阿克陶县-25-19",
+        "XinJiang-阿克陶县-31-26",
+        "XinJiang-阿克陶县-37-58",
+        "XinJiang-阿克陶县-37-59",
+        "XinJiang-阿克陶县-7-6"
       ],
       "strengthened_files": []
     }
