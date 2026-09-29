@@ -30,7 +30,14 @@
     "XinJiang-阿克陶县-45-71.json": "1526f0d986cf7dd97986bc60a91237c6206e35ae5649ab3eeef4e9f5bf00d4d3",
     "XinJiang-阿克陶县-44-38.json": "93e57137471e44c88351a1cab3470213dab0ee63174af5cf3bbca3d0be692c7d",
     "XinJiang-阿克陶县-43-36.json": "50702e3c1e85cb08b76e0b5710618c5fd95cc66ed8bc9810cefd9ed7f48c0ebf",
-    "XinJiang-阿图什市-5-54.json": "8f3dd18538cb6632e4ea1860bce52db93a3ed8e035f4ef1721563d59ddec42c8"
+    "XinJiang-阿图什市-5-54.json": "8f3dd18538cb6632e4ea1860bce52db93a3ed8e035f4ef1721563d59ddec42c8",
+    "XinJiang-阿图什市-29-63.json": "d90fa1f9c8da78b24b385a758048e845760c665bec19388b49ff004f8016270b",
+    "XinJiang-阿图什市-29-64.json": "dd7cfefdef2619447cb6fca7e871295ad1d3e19eec10daa27bb240f4f5e5541b",
+    "XinJiang-阿图什市-29-60.json": "5bf0bbe59c9d01cafd1db8859cf1bacbaa25125bd861b0978c09fb7ca118f67a",
+    "XinJiang-阿图什市-28-45.json": "81b0ff878b771cb7dfa6987c9199b4b0fab5bb81ed07fa273214d4c6ccfb37e5",
+    "XinJiang-阿图什市-29-61.json": "4983be90ac7ffd0476c75636036b2adc36b645ced360221d2e5f42615f6cb287",
+    "XinJiang-阿图什市-28-44.json": "f99678f7243f93d36ef593f8a3f66faa7dba3c7e9047837448d41c23fe51aeab",
+    "XinJiang-阿图什市-29-62.json": "18197967390d1944c2fac3815ad3a504ec890fc310c83becbea97dddf9bcabb1"
   },
   "daily_stats": {
     "2026-09-12": {
@@ -74,7 +81,7 @@
       "strengthened_files": []
     },
     "2026-09-29": {
-      "total_completed": 31,
+      "total_completed": 38,
       "new_files": [
         "XinJiang-阿克陶县-37-60",
         "XinJiang-阿克陶县-37-61",
@@ -84,6 +91,13 @@
         "XinJiang-阿克陶县-43-37",
         "XinJiang-阿克陶县-44-38",
         "XinJiang-阿克陶县-45-71",
+        "XinJiang-阿图什市-28-44",
+        "XinJiang-阿图什市-28-45",
+        "XinJiang-阿图什市-29-60",
+        "XinJiang-阿图什市-29-61",
+        "XinJiang-阿图什市-29-62",
+        "XinJiang-阿图什市-29-63",
+        "XinJiang-阿图什市-29-64",
         "XinJiang-阿图什市-5-54"
       ],
       "strengthened_files": []

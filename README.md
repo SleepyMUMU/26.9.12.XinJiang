@@ -31,25 +31,25 @@
 | 统计项 | 数值 | 占比 / 进度条 |
 | :--- | :---: | :--- |
 | **总图片数 (Total)** | **408** | `[████████████████████]` 100.0% |
-| **已标记 (Completed)** | **31** | `[██░░░░░░░░░░░░░░░░░░]` 7.6% |
-| **未标记 (Remaining)** | **377** | `[░░░░░░░░░░░░░░░░░░░░]` 92.4% |
+| **已标记 (Completed)** | **38** | `[██░░░░░░░░░░░░░░░░░░]` 9.3% |
+| **未标记 (Remaining)** | **370** | `[░░░░░░░░░░░░░░░░░░░░]` 90.7% |
 
 **当前总体进度：**
-![Progress Badge](https://img.shields.io/badge/Progress-31%20%2F%20408%20(7.6%25)-blue?style=for-the-badge&logo=github)
+![Progress Badge](https://img.shields.io/badge/Progress-38%20%2F%20408%20(9.3%25)-blue?style=for-the-badge&logo=github)
 
 ### 📈 标注进度趋势折线图
-![标注进度趋势](https://raw.githubusercontent.com/SleepyMUMU/26.9.12.XinJiang/assets/progress_chart.svg?v=1790683315)
+![标注进度趋势](https://raw.githubusercontent.com/SleepyMUMU/26.9.12.XinJiang/assets/progress_chart.svg?v=1790685318)
 
 ---
 ### 📅 每日标注聚合日志
 
 <details open>
-<summary><b>2026-09-29</b> : 进度 31/408 (7.6%) | 🌟 新增 9 | 🔨 加强 0 🔽</summary>
+<summary><b>2026-09-29</b> : 进度 38/408 (9.3%) | 🌟 新增 16 | 🔨 加强 0 🔽</summary>
 <br>
   <details>
-  <summary>🌟 <b>新增文件 (9)</b> 🔽</summary>
+  <summary>🌟 <b>新增文件 (16)</b> 🔽</summary>
 
-  `XinJiang-阿克陶县-37-60`, `XinJiang-阿克陶县-37-61`, `XinJiang-阿克陶县-37-72`, `XinJiang-阿克陶县-43-35`, `XinJiang-阿克陶县-43-36`, `XinJiang-阿克陶县-43-37`, `XinJiang-阿克陶县-44-38`, `XinJiang-阿克陶县-45-71`, `XinJiang-阿图什市-5-54`
+  `XinJiang-阿克陶县-37-60`, `XinJiang-阿克陶县-37-61`, `XinJiang-阿克陶县-37-72`, `XinJiang-阿克陶县-43-35`, `XinJiang-阿克陶县-43-36`, `XinJiang-阿克陶县-43-37`, `XinJiang-阿克陶县-44-38`, `XinJiang-阿克陶县-45-71`, `XinJiang-阿图什市-28-44`, `XinJiang-阿图什市-28-45`, `XinJiang-阿图什市-29-60`, `XinJiang-阿图什市-29-61`, `XinJiang-阿图什市-29-62`, `XinJiang-阿图什市-29-63`, `XinJiang-阿图什市-29-64`, `XinJiang-阿图什市-5-54`
   </details>
 </details>
 
@@ -85,7 +85,7 @@
 
 
 ---
-*📅 统计更新时间：2026-09-29 20:01:55 (UTC+8)*
+*📅 统计更新时间：2026-09-29 20:35:18 (UTC+8)*
 
 ---
 ## 👥 多人协作说明
