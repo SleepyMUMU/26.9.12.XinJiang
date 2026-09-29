@@ -21,7 +21,16 @@
     "XinJiang-阿克陶县-31-26.json": "9799a39251e74330e6e3a6febaecb2d5137707d20fa4a118d8147f87a2b2c06d",
     "XinJiang-阿克陶县-11-5.json": "453c808dc348a908cc89f96c06f3c006a8d417bb8fc9fe163411b3d626f7f4e1",
     "XinJiang-阿克陶县-25-19.json": "69e57d4f1b7e74bb9ae8c05443a4108e6f17c19b0fe690461a62849b73198d38",
-    "XinJiang-阿克陶县-24-32.json": "20b99f32dfefc7d4041741b15b8e2bf9cc24c8a2beec09634b062904f23929e5"
+    "XinJiang-阿克陶县-24-32.json": "20b99f32dfefc7d4041741b15b8e2bf9cc24c8a2beec09634b062904f23929e5",
+    "XinJiang-阿克陶县-37-60.json": "724dd5963f587fd00348781d979f9a8986c4cb3f5c6850b111353447711eb955",
+    "XinJiang-阿克陶县-43-37.json": "b864cdb43d7b0ff746af146b6cbf94115877de6d7f2794ab7f4b6967fd5c1584",
+    "XinJiang-阿克陶县-43-35.json": "9fe57a4d9f44d389e935e2d8edb1d4bc082a09303ae99ec262f5ab5ff27aaae7",
+    "XinJiang-阿克陶县-37-72.json": "8aa68f3c1a948e60437bfdd02b6f369ce32cd811c6fa6f2805048a9821ad28ed",
+    "XinJiang-阿克陶县-37-61.json": "265d6882fb09045c6123744feda0e81f4e0a5833169fff70c1f89720de205eea",
+    "XinJiang-阿克陶县-45-71.json": "1526f0d986cf7dd97986bc60a91237c6206e35ae5649ab3eeef4e9f5bf00d4d3",
+    "XinJiang-阿克陶县-44-38.json": "93e57137471e44c88351a1cab3470213dab0ee63174af5cf3bbca3d0be692c7d",
+    "XinJiang-阿克陶县-43-36.json": "50702e3c1e85cb08b76e0b5710618c5fd95cc66ed8bc9810cefd9ed7f48c0ebf",
+    "XinJiang-阿图什市-5-54.json": "8f3dd18538cb6632e4ea1860bce52db93a3ed8e035f4ef1721563d59ddec42c8"
   },
   "daily_stats": {
     "2026-09-12": {
@@ -61,6 +70,21 @@
         "XinJiang-阿克陶县-37-58",
         "XinJiang-阿克陶县-37-59",
         "XinJiang-阿克陶县-7-6"
+      ],
+      "strengthened_files": []
+    },
+    "2026-09-29": {
+      "total_completed": 31,
+      "new_files": [
+        "XinJiang-阿克陶县-37-60",
+        "XinJiang-阿克陶县-37-61",
+        "XinJiang-阿克陶县-37-72",
+        "XinJiang-阿克陶县-43-35",
+        "XinJiang-阿克陶县-43-36",
+        "XinJiang-阿克陶县-43-37",
+        "XinJiang-阿克陶县-44-38",
+        "XinJiang-阿克陶县-45-71",
+        "XinJiang-阿图什市-5-54"
       ],
       "strengthened_files": []
     }
